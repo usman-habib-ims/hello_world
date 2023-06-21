@@ -1,19 +1,20 @@
+//USMAN HABIB 
 import 'package:flutter/material.dart';
-import './question.dart';
-import './answer.dart';
-// void main(){
-//   runApp(MyApp());
-// }
+// import './question.dart';
+// import './answer.dart';
+void main(){
+  runApp(MyApp());
+}
 // void main()=>runApp(MyApp());
-// class MyApp extends StatelessWidget{
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(home: Scaffold(
-//       appBar: AppBar(title: Text("My Title"),),
-//       body: Text("My App Material"),
-//       ),);
-//   }
-// }
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(home: Scaffold(
+      appBar: AppBar(title: Text("My Title"),),
+      body: Text("My App Material"),
+      ),);
+  }
+}
 // void main() => runApp(MyApp());
 // class MyApp extends StatelessWidget{
 //   @override
@@ -1792,30 +1793,30 @@ import './answer.dart';
 //   }
 // }
 
-void main(){
-  runApp(MyApp());
-}
-class MyApp extends StatelessWidget{
-
-  @override
-  Widget build(BuildContext context) {
-    var questions;
-    var question=[
-      "What\'s your choice",
-      "What do you want",
-    ];
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("MY QUIZZ"),
-        ),
-        body: Column(
-          children: [
-            Question(
-              questions[questionIndex],),
-          ],
-        ),
-      ),
-    );
-  }
-}
+// void main(){
+//   runApp(MyApp());
+// }
+// class MyApp extends StatelessWidget{
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     var questions;
+//     var question=[
+//       "What\'s your choice",
+//       "What do you want",
+//     ];
+//     return MaterialApp(
+//       home: Scaffold(
+//         appBar: AppBar(
+//           title: Text("MY QUIZZ"),
+//         ),
+//         body: Column(
+//           children: [
+//             Question(
+//               questions[questionIndex],),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
